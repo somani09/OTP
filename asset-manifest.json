@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/OTP/static/css/main.c4a46787.chunk.css",
+    "main.js": "/OTP/static/js/main.652658b5.chunk.js",
+    "main.js.map": "/OTP/static/js/main.652658b5.chunk.js.map",
+    "runtime-main.js": "/OTP/static/js/runtime-main.58b30791.js",
+    "runtime-main.js.map": "/OTP/static/js/runtime-main.58b30791.js.map",
+    "static/js/2.7964f022.chunk.js": "/OTP/static/js/2.7964f022.chunk.js",
+    "static/js/2.7964f022.chunk.js.map": "/OTP/static/js/2.7964f022.chunk.js.map",
+    "static/js/3.b4b14294.chunk.js": "/OTP/static/js/3.b4b14294.chunk.js",
+    "static/js/3.b4b14294.chunk.js.map": "/OTP/static/js/3.b4b14294.chunk.js.map",
+    "index.html": "/OTP/index.html",
+    "static/css/main.c4a46787.chunk.css.map": "/OTP/static/css/main.c4a46787.chunk.css.map",
+    "static/js/2.7964f022.chunk.js.LICENSE.txt": "/OTP/static/js/2.7964f022.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/OTP/static/media/logo.6ce24c58.svg",
+    "static/media/ring.86c944c2.svg": "/OTP/static/media/ring.86c944c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58b30791.js",
+    "static/js/2.7964f022.chunk.js",
+    "static/css/main.c4a46787.chunk.css",
+    "static/js/main.652658b5.chunk.js"
+  ]
+}
