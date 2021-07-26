@@ -1,0 +1,180 @@
+.mainAuth{
+    /* border: black solid 1px; */
+    /* position: absolute; */
+    // width: 490px;
+    // height: 710px;
+    padding: 40px 24px ; 
+    background: #ffffff;
+    // box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(126, 126, 126, 0.1);
+    width: 600px;
+    
+}
+.bb{
+    width: 400px;
+}
+.clearBtn{
+    height: 20px;
+}
+.otp-input{
+    /* width: 50px;
+    height: 50px;*/
+    border: none;
+    border-bottom: black solid 2px ; 
+    width: 40px ;
+    height: 59px;
+    margin: 5px;
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px ;
+    line-height: 72px;
+    text-align: center;
+    color: #535353;
+    padding: 0 ;
+    border-radius: 0 ;
+    box-shadow: none ;
+    margin-top: 28px;
+}
+.otp-input:focus{
+
+    outline: none;
+}
+
+.simpleText{
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #7B7C7C;
+    margin: 0px;
+}
+
+.authGoBackButton{
+    padding: 8px 20px;
+    color: #FF4D1F;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1) ;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    width: fit-content;
+    margin: 0px 0px 24px 0px;
+    cursor: pointer;
+}
+
+.invalid{
+    width: 228px;
+    height: 39px;
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #FF4D1F;
+}
+
+.resendOtp{
+    width: 228px;
+    height: 39px;
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    margin-top: 14px;
+    color: #909192;
+}
+.clear{
+    width: 50px;
+    height: 20px;
+    border: none;
+    color: #7B7C7C;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.clear:focus{
+    outline: none;
+}
+.submit{
+
+    width: 450px;
+    height: 56px;
+    border: none;
+    background: #FF4D1F;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    outline: none;
+
+    font-family: 'Mikado';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+.submit:disabled{
+    background: #C4C4C4;
+}
+
+.noOtp{
+    width: 228px;
+    height: 39px;
+    margin: 0;
+    margin-top: 14px;
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #909192;
+}
+.resendBtn{
+    background: none;
+    border: none;
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FF4D1F;
+}
+.resendBtn:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:600px){
+    .mainAuth{
+        width: 85%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .submit{
+        width: 350px;
+    }
+}
+@media only screen and (max-width:375px){
+    .submit{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:300px){
+    .submit{
+        width: 250px;
+    }
+    .mainHeader{
+        font-size: 20px;
+    }
+}
